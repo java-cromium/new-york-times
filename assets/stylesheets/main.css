@@ -147,3 +147,23 @@ div.promo-tag > p {
 div.promo-tag > p + p {
   color: blue;
 }
+
+.middle-section .left-box {
+  float: left;
+  width: 40%;
+  margin-left: 30% ;
+}
+
+.middle-section img {
+  width: 100px;
+}
+
+.middle-section aside {
+  float: right;
+  width: 20%;
+  font-size: 12px;
+}
+
+.middle-section hr {
+  width: 100%;
+}
