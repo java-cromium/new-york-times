@@ -1,8 +1,22 @@
+/*
+  ========================================
+  Body
+  ========================================
+*/
+
 body {
   background: white;
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'georgia', sans-serif;
   -webkit-font-smoothing: antialiased;
+  font-size: 20px;
+  line-height: 28px;
 }
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
 
 header > nav > div > ul > li {
   display: inline;
@@ -15,6 +29,7 @@ header > nav > div > ul > li {
 header > nav > div > ul > li > a {
   text-decoration: none;
   color: black;
+  font-family: 'Libre Franklin'
 }
 
 header {
@@ -37,6 +52,10 @@ header {
   width: 100px;
 }
 
+.social {
+  float: right;
+}
+
 header button {
   border-radius: 3px;
   background-color: #567b95;
@@ -50,9 +69,21 @@ header button {
   margin-right: 3px;
 }
 
+/*
+  ========================================
+  Main Content
+  ========================================
+*/
+
 .intro {
   margin: 0 auto;
   width: 75%
+}
+
+.top-content {
+  margin: 0 auto;
+  width: 40%;
+  margin-top: 15px;
 }
 
 main > section > img {
@@ -80,4 +111,39 @@ main > section.intro > p {
 
 #credit {
   font-size: 12px;
+}
+
+.social-container {
+  margin: 20px 0;
+}
+
+.social > i {
+  margin: 0px 10px;
+}
+
+main > section.top-content > h3 {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.top-content > p {
+  margin-bottom: 15px;
+}
+
+hr {
+  width: 80px;
+}
+
+.promo-tag {
+  text-align: center;
+}
+
+div.promo-tag > p {
+  font-weight: 900;
+  font-size: 16px;
+  font-family: 'Libre Franklin'
+}
+
+div.promo-tag > p + p {
+  color: blue;
 }
