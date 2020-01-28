@@ -220,3 +220,63 @@ h2 {
   font-weight: 600;
   padding-top: 30px;
 }
+
+.inflation {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.inflation-info1 p,
+.inflation-info2 p {
+  display: block;
+  width: 22%;
+  /* max-width: 25%; */
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.inflation span {
+  font-weight: 600;
+}
+
+.inflation-info1{
+  position: absolute;
+  top: 40%;
+  margin: 0 auto;
+}
+
+.inflation-info2 {
+  position: absolute;
+  top: 80%;
+  margin: 0 auto;
+}
+
+.box-margin {
+  padding: 10px 12px;
+}
+
+#box1 {
+  float: left;
+}
+#box2 {
+  float: left;
+}
+#box3 {
+  float: left;
+}
+#box4 {
+  float: right;
+}
+#box5 {
+  float: left;
+}
+#box6 {
+  float: left;
+}
+#box7 {
+  float: left;
+}
+#box8 {
+  float: right;
+}
