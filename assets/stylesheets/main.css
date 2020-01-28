@@ -33,14 +33,19 @@ header > nav > div > ul > li > a {
 }
 
 header {
-  margin-top: 3px;
+  /* margin-top: 3px; */
   border-bottom: solid 1px lightgrey;
-  padding-bottom: 1px;
+  padding: 3px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  background: #fff;
 }
 
 .left-side {
   float: left;
-  margin-top: 8px;
+  margin-top: 4px;
 }
 
 .right-side {
@@ -48,7 +53,7 @@ header {
 }
 
 .center {
-  margin: 0 auto;
+  margin: 3px auto;
   width: 100px;
 }
 
@@ -186,9 +191,8 @@ div.promo-tag > p + p {
  }
 
 aside {
-  margin-right: 10rem;
+  margin-right: 6rem;
   max-width: 240px;
-
 }
 
 aside > h4 + hr {
@@ -200,4 +204,19 @@ aside > h4 + hr {
 aside > h4 {
   font-family: 'Libre Franklin';
   font-weight: 600;
+}
+
+.width-40 {
+  width: 40%;
+  margin: auto;
+}
+
+.clear {
+  clear: both;
+}
+
+h2 {
+  margin: 10px 0;
+  font-weight: 600;
+  padding-top: 30px;
 }
