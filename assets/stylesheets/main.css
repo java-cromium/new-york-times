@@ -41,6 +41,7 @@ header {
   width: 100%;
   height: 40px;
   background: #fff;
+  z-index: 1;
 }
 
 .left-side {
@@ -222,7 +223,7 @@ h2 {
 }
 
 .inflation {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   position: relative;
 }
@@ -279,4 +280,56 @@ h2 {
 }
 #box8 {
   float: right;
+}
+
+.p-margin {
+  margin-bottom: 15px;
+}
+
+div.inflation-info1,
+div.inflation-info2 {
+  font-family: 'Libre Franklin'
+}
+
+section.inflation > h2 + p {
+  font-size: 16px;
+}
+
+.credit {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.credit > hr {
+  margin-left: 0;
+}
+
+.author {
+  font-size: 14px;
+  font-family: 'Libre Franklin'
+}
+
+.image {
+  margin: 0 auto;
+}
+
+img[alt=telescope-image],
+img[alt=telescope-image] + p {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  font-size: 15px;
+  line-height: 20px;
+  color: grey;
+  margin-bottom: 5px;
+}
+
+iframe + small {
+  font-size: 15px;
+  line-height: 10px;
+  color: grey;
+}
+
+iframe + small + p {
+  margin-top: 30px;
 }
