@@ -426,4 +426,8 @@ span.social.first-nav > i:nth-child(6n) {
   .inflation {
     width: 80%;
   }
+
+  .credit {
+    width: 80%;
+  }
 }
