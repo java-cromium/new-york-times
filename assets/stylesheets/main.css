@@ -494,11 +494,21 @@ div.signup-form > a:hover {
   margin-right: 1%;
 }
 
+.left-content span {
+  font-size: 65%;
+  color: #666;
+}
+
 .right-content {
   border-top: solid 1px black;
   flex: 1;
   margin-left: 1%;
   margin-right: 5%;
+}
+
+.right-content p {
+  border-top: 1px solid #eeeeee;
+  padding: 10px 0;
 }
 
 .row-3 {
@@ -512,15 +522,17 @@ div.signup-form > a:hover {
   font-family: 'nyt-franklin', helvetica, arial, sans-serif
 }
 
+.more-content h4,
+.more-content p {
+  font-weight: 600;
+  font-size: 90%;
+  line-height: 24px;
+}
+
+
 .more-content img {
   width: 100%;
 }
-/* .more-content img,
-.more-content img,
-.more-content img {
-  width: 100%;
-  height: 50%;
-} */
 
 .row-1,
 .row-2,
