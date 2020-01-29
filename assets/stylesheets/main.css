@@ -30,7 +30,7 @@ header > nav > div > ul > li {
 header > nav > div > ul > li > a {
   text-decoration: none;
   color: black;
-  font-family: 'Libre Franklin'
+  font-family: 'nyt-franklin', helvetica, arial, sans-serif
 }
 
 header {
@@ -133,7 +133,7 @@ main > section.intro > p {
 }
 
 .social-container > span {
-  font-family: 'Libre Franklin';
+  font-family: 'nyt-franklin', helvetica, arial, sans-serif;
   font-size: 12px;
   font-weight: 200;
 }
@@ -149,7 +149,7 @@ main > section.intro > p {
 }
 
 main > section.top-content > h3 {
-  font-family: 'Libre Franklin';
+  font-family: 'nyt-franklin', helvetica, arial, sans-serif;
   font-size: 14px;
   font-weight: 600;
   margin-top: 35px;
@@ -171,7 +171,7 @@ hr {
 div.promo-tag > p {
   font-weight: 900;
   font-size: 16px;
-  font-family: 'Libre Franklin';
+  font-family: 'nyt-franklin', helvetica, arial, sans-serif;
   letter-spacing: -1px;
 }
 
@@ -229,7 +229,7 @@ aside > h4 + hr {
 }
 
 aside > h4 {
-  font-family: 'Libre Franklin';
+  font-family: 'nyt-franklin', helvetica, arial, sans-serif;
   font-weight: 600;
 }
 
@@ -310,7 +310,7 @@ h2 {
 
 div.inflation-info1,
 div.inflation-info2 {
-  font-family: 'Libre Franklin'
+  font-family: 'nyt-franklin', helvetica, arial, sans-serif
 }
 
 section.inflation > h2 + p {
@@ -330,7 +330,7 @@ section.inflation > h2 + p {
 
 .author {
   font-size: 14px;
-  font-family: 'Libre Franklin';
+  font-family: 'nyt-franklin', helvetica, arial, sans-serif;
   margin-bottom: 35px;
 }
 
@@ -375,7 +375,7 @@ iframe {
 
 #article-footnote {
   color: rgb(102, 102, 102);
-  font-family: 'Libre Franklin';
+  font-family: 'nyt-franklin', helvetica, arial, sans-serif;
   font-size: 10px;
   font-weight: 600;
   letter-spacing: 0;
@@ -405,6 +405,49 @@ iframe {
 span.social.first-nav > i:nth-child(5n),
 span.social.first-nav > i:nth-child(6n) {
   background: white;
+}
+
+/*
+  ========================================
+  Sign up Section
+  ========================================
+*/
+
+.signup {
+  display: flex;
+  font-size: 16px;
+  width: 95%;
+  margin: 30px auto;
+  border-top: 1px solid black;
+  font-family: 'nyt-franklin', helvetica, arial, sans-serif;
+}
+
+.signup-info {
+  flex: 1;
+}
+
+.signup-info h4 {
+  font-weight: 600;
+}
+
+.signup-form {
+  flex: 1;
+}
+
+.checkbox {
+  float: left;
+}
+
+.signup-form div {
+  width: 100%;
+}
+
+.signup-form input {
+  width: 25rem;
+}
+
+.signup-form button {
+  width: 25%;
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
