@@ -6,7 +6,7 @@
 
 body {
   background: white;
-  font-family: 'georgia', serif, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   -webkit-font-smoothing: antialiased;
   font-size: 19px;
   line-height: 28px;
@@ -233,11 +233,6 @@ aside > h4 {
   font-weight: 600;
 }
 
-.width-40 {
-  width: 40%;
-  margin: auto;
-}
-
 .clear {
   clear: both;
 }
@@ -410,4 +405,25 @@ iframe {
 span.social.first-nav > i:nth-child(5n),
 span.social.first-nav > i:nth-child(6n) {
   background: white;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .top-content {
+    width: 50%;
+  }
+
+  .middle-section .left-box {
+    width: 50%;
+    margin-left: 25% ;
+  }
+
+  aside {
+    margin-right: 2rem;
+    margin-left: 1rem;
+  }
+
+  .inflation {
+    width: 80%;
+  }
 }
