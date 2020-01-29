@@ -547,6 +547,40 @@ div.signup-form > a:hover {
   flex: 1;
 }
 
+/*
+  ========================================
+  Relevant Links Section
+  ========================================
+*/
+
+.relevant-links {
+  width: 90%;
+  margin: auto;
+  border-top: 5px double #eee;
+  font-size: 13px;
+  font-family: 'nyt-franklin', helvetica, arial, sans-serif;
+  line-height: 24px;
+}
+
+.relevant-links div {
+  float: left;
+  margin-right: 60px;
+}
+
+.relevant-links img {
+  width: 20%;
+  display: block;
+}
+
+.relevant-links a {
+  text-decoration: none;
+  color: #666;
+}
+
+.relevant-links a:hover {
+  text-decoration: underline;
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .top-content {
