@@ -620,6 +620,26 @@ div.signup-form > a:hover {
   margin: 15px auto;
 }
 
+/*
+  ========================================
+  Sign up Section
+  ========================================
+*/
+
+footer > nav > ul.split {
+  font-size: 11px;
+  width: 80%;
+  margin: auto;
+}
+
+footer > nav > ul.split li {
+  flex: 1;
+}
+
+footer > nav > ul.split li:first-child {
+  flex: 3;
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .top-content {
