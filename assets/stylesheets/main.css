@@ -97,12 +97,23 @@ header button {
   font-size: 10px;
 }
 
-.relevant-links a:hover {
-  text-decoration: underline;
-}
-
 p > a:hover {
   text-decoration: none;
+}
+
+div.signup-form > a {
+  color: rgb(50, 104, 145);
+  font-size: 10px;
+  text-decoration: none;
+}
+
+footer > nav.split a {
+  flex: 1;
+  margin: auto;
+}
+
+.relevant-links a:hover {
+  text-decoration: underline;
 }
 
 .intro {
@@ -159,6 +170,11 @@ iframe + small + p {
 .right-content p {
   border-top: 1px solid #eee;
   padding: 10px 0;
+}
+
+aside > h4 {
+  font-family: 'nyt-franklin', helvetica, arial, sans-serif;
+  font-weight: 600;
 }
 
 .more-content h4,
@@ -284,11 +300,6 @@ aside > h4 + hr {
 
 .split > img {
   flex: 1;
-}
-
-aside > h4 {
-  font-family: 'nyt-franklin', helvetica, arial, sans-serif;
-  font-weight: 600;
 }
 
 .clear {
@@ -418,12 +429,6 @@ iframe {
   height: 358px;
 }
 
-div.signup-form > a {
-  color: rgb(50, 104, 145);
-  font-size: 10px;
-  text-decoration: none;
-}
-
 div.signup-form > a:hover {
   text-decoration: underline;
 }
@@ -439,8 +444,24 @@ div.signup-form > a:hover {
   word-spacing: 2px;
 }
 
+.subscribe li:nth-child(-n+4) a {
+  color: black;
+  font-weight: 700;
+  font-size: 120%;
+  margin: 15px auto;
+}
+
+footer > nav.split > a:first-child {
+  flex: 3;
+}
+
 #article-footnote > a {
   color: rgb(102, 102, 102);
+}
+
+#second-list > li > a {
+  font-weight: 300;
+  font-size: 12px;
 }
 
 #article-footnote > a:hover {
@@ -624,18 +645,6 @@ input[type=checkbox] {
   margin: 10px auto;
 }
 
-.subscribe li:nth-child(-n+4) a {
-  color: black;
-  font-weight: 700;
-  font-size: 120%;
-  margin: 15px auto;
-}
-
-#second-list > li > a {
-  font-weight: 300;
-  font-size: 12px;
-}
-
 /*
   ========================================
   Sign up Section
@@ -646,15 +655,6 @@ footer > nav.split {
   font-size: 11px;
   width: 80%;
   margin: auto;
-}
-
-footer > nav.split a {
-  flex: 1;
-  margin: auto;
-}
-
-footer > nav.split > a:first-child {
-  flex: 3;
 }
 
 .footer-nav > a:nth-child(1n),
