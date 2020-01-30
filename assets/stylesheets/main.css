@@ -30,7 +30,7 @@ header > nav > div > ul > li {
 header > nav > div > ul > li > a {
   text-decoration: none;
   color: black;
-  font-family: 'nyt-franklin', helvetica, arial, sans-serif
+  font-family: 'nyt-franklin', helvetica, arial, sans-serif;
 }
 
 header {
@@ -92,7 +92,7 @@ p > a:hover {
 
 .intro {
   margin: 0 auto;
-  width: 75%
+  width: 75%;
 }
 
 .top-content {
@@ -111,14 +111,14 @@ main > section > h1 {
   margin: 45px 0 25px 15rem;
   font-weight: 600;
   font-style: italic;
-  font-family: georgia;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   line-height: 50px;
 }
 
 main > section.intro > p {
   width: 820px;
   color: #666;
-  font-family: georgia;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -141,7 +141,7 @@ main > section.intro > p {
 .social > i {
   background: #eee;
   font-size: 14px;
-  margin: 0px 5px;
+  margin: 0 5px;
   padding: 5px;
   border-radius: 50px;
   height: 15px;
@@ -182,7 +182,7 @@ div.promo-tag > p + p {
 .middle-section .left-box {
   float: left;
   width: 40%;
-  margin-left: 30% ;
+  margin-left: 30%;
 }
 
 .middle-section img {
@@ -215,7 +215,7 @@ div.promo-tag > p + p {
   font-size: 14px;
   margin-left: 10px;
   align-self: center;
- }
+}
 
 aside {
   margin-right: 6rem;
@@ -254,6 +254,7 @@ h2 {
 .inflation-info2 p {
   display: block;
   width: 22%;
+
   /* max-width: 25%; */
   font-size: 11px;
   line-height: 16px;
@@ -263,7 +264,7 @@ h2 {
   font-weight: 600;
 }
 
-.inflation-info1{
+.inflation-info1 {
   position: absolute;
   top: 40%;
   margin: 0 auto;
@@ -282,24 +283,31 @@ h2 {
 #box1 {
   float: left;
 }
+
 #box2 {
   float: left;
 }
+
 #box3 {
   float: left;
 }
+
 #box4 {
   float: right;
 }
+
 #box5 {
   float: left;
 }
+
 #box6 {
   float: left;
 }
+
 #box7 {
   float: left;
 }
+
 #box8 {
   float: right;
 }
@@ -310,7 +318,7 @@ h2 {
 
 div.inflation-info1,
 div.inflation-info2 {
-  font-family: 'nyt-franklin', helvetica, arial, sans-serif
+  font-family: 'nyt-franklin', helvetica, arial, sans-serif;
 }
 
 section.inflation > h2 + p {
@@ -373,6 +381,7 @@ iframe + small + p {
 iframe {
   margin-top: 25px;
   width: 100%;
+  height: 358px;
 }
 
 #article-footnote {
@@ -450,7 +459,7 @@ span.social.first-nav > i:nth-child(6n) {
 .signup-form input {
   width: 70%;
   height: 30px;
-  font-size: 15px
+  font-size: 15px;
 }
 
 .signup-form button {
@@ -486,7 +495,7 @@ div.signup-form > a:hover {
 */
 
 .more-content {
-  display:flex;
+  display: flex;
 }
 
 .left-content {
@@ -499,7 +508,7 @@ div.signup-form > a:hover {
 .left-content span {
   font-size: 65%;
   color: #666;
-  font-family: 'nyt-franklin', helvetica, arial, sans-serif
+  font-family: 'nyt-franklin', helvetica, arial, sans-serif;
 }
 
 .right-content {
@@ -510,7 +519,7 @@ div.signup-form > a:hover {
 }
 
 .right-content p {
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #eee;
   padding: 10px 0;
 }
 
@@ -522,7 +531,7 @@ div.signup-form > a:hover {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-weight: 600;
-  font-family: 'nyt-franklin', helvetica, arial, sans-serif
+  font-family: 'nyt-franklin', helvetica, arial, sans-serif;
 }
 
 .more-content h4,
@@ -531,7 +540,6 @@ div.signup-form > a:hover {
   font-size: 90%;
   line-height: 24px;
 }
-
 
 .more-content img {
   width: 100%;
@@ -569,6 +577,7 @@ div.signup-form > a:hover {
   float: left;
   margin-right: 60px;
 }
+
 .relevant-links div:last-child {
   margin-right: 0;
 }
@@ -603,7 +612,7 @@ div.signup-form > a:hover {
 .subscribe {
   border-left: 1px solid #eee;
   padding-left: 15px;
-  flex: 2
+  flex: 2;
 }
 
 .subscribe hr {
@@ -620,6 +629,11 @@ div.signup-form > a:hover {
   font-weight: 700;
   font-size: 120%;
   margin: 15px auto;
+}
+
+#second-list > li > a {
+  font-weight: 300;
+  font-size: 12px;
 }
 
 /*
@@ -647,7 +661,7 @@ footer > nav.split > a:first-child {
 .footer-nav > a:nth-child(4n),
 .footer-nav > a:nth-child(7n),
 .footer-nav > a:nth-child(9n) {
-max-width: 200px;
+  max-width: 200px;
 }
 
 .footer-nav > a {
@@ -672,7 +686,7 @@ footer {
 
   .middle-section .left-box {
     width: 50%;
-    margin-left: 25% ;
+    margin-left: 25%;
   }
 
   aside {
