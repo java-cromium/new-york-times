@@ -1,6 +1,6 @@
 # Project Name
 
-> Practice project with the purpose of developing a replica of a New York Times Landing page using floats to position elements. Landing page developed only using HTML and CSS3. 
+> Practice project with the purpose of developing a replica of a New York Times Landing page using floats to position elements. Landing page developed only using HTML and CSS3.
 
 ![screenshot](./app_screenshot.png)
 
@@ -36,12 +36,6 @@ Feel free to check the [issues page](https://github.com/java-cromium/new-york-ti
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
