@@ -363,6 +363,7 @@ iframe + small {
   font-size: 15px;
   line-height: 10px;
   color: grey;
+  display: block;
 }
 
 iframe + small + p {
@@ -371,6 +372,7 @@ iframe + small + p {
 
 iframe {
   margin-top: 25px;
+  width: 100%;
 }
 
 #article-footnote {
