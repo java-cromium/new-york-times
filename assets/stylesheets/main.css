@@ -567,9 +567,12 @@ div.signup-form > a:hover {
   float: left;
   margin-right: 60px;
 }
+.relevant-links div:last-child {
+  margin-right: 0;
+}
 
 .relevant-links img {
-  width: 20%;
+  max-width: 15%;
 }
 
 .relevant-links a {
@@ -593,6 +596,28 @@ div.signup-form > a:hover {
 
 .f-row {
   flex: 1;
+}
+
+.subscribe {
+  border-left: 1px solid #eee;
+  padding-left: 15px;
+  flex: 2
+}
+
+.subscribe hr {
+  border: 1px solid #eee;
+  width: 100%;
+}
+
+.subscribe li:nth-child(-n+4) {
+  margin: 10px auto;
+}
+
+.subscribe li:nth-child(-n+4) a {
+  color: black;
+  font-weight: 700;
+  font-size: 120%;
+  margin: 15px auto;
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
