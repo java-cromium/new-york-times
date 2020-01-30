@@ -27,6 +27,10 @@ header > nav > div > ul > li {
   font-size: 14.25px;
 }
 
+p > a {
+  color: #326891;
+}
+
 header > nav > div > ul > li > a {
   text-decoration: none;
   color: black;
@@ -82,10 +86,6 @@ header button {
   ========================================
 */
 
-p > a {
-  color: #326891;
-}
-
 p > a:hover {
   text-decoration: none;
 }
@@ -113,6 +113,25 @@ main > section > h1 {
   font-style: italic;
   font-family: Georgia, 'Times New Roman', Times, serif;
   line-height: 50px;
+}
+
+.top-content > p {
+  margin-bottom: 15px;
+}
+
+.split > p {
+  flex: 2;
+  line-height: 16px;
+  font-size: 14px;
+  margin-left: 10px;
+  align-self: center;
+}
+
+div.promo-tag > p {
+  font-weight: 900;
+  font-size: 16px;
+  font-family: 'nyt-franklin', helvetica, arial, sans-serif;
+  letter-spacing: -1px;
 }
 
 main > section.intro > p {
@@ -156,23 +175,12 @@ main > section.top-content > h3 {
   text-decoration: underline grey;
 }
 
-.top-content > p {
-  margin-bottom: 15px;
-}
-
 hr {
   width: 80px;
 }
 
 .promo-tag {
   text-align: center;
-}
-
-div.promo-tag > p {
-  font-weight: 900;
-  font-size: 16px;
-  font-family: 'nyt-franklin', helvetica, arial, sans-serif;
-  letter-spacing: -1px;
 }
 
 div.promo-tag > p + p {
@@ -207,14 +215,6 @@ div.promo-tag > p + p {
 
 .split > img {
   flex: 1;
-}
-
-.split > p {
-  flex: 2;
-  line-height: 16px;
-  font-size: 14px;
-  margin-left: 10px;
-  align-self: center;
 }
 
 aside {
@@ -705,5 +705,4 @@ footer {
   .signup {
     width: 90%;
   }
-
 }
