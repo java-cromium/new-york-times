@@ -2,7 +2,7 @@
 
 > Practice project with the purpose of developing a replica of a New York Times Landing page using floats to position elements. Landing page developed only using HTML and CSS3.
 
-![screenshot](./app_screenshot.png)
+![screenshot](assets/nyt-replica-screen-shot.png)
 
 Additional description about the project and its features.
 
